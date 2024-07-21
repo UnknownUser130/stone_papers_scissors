@@ -7,6 +7,13 @@
     <script src="playgame.js"></script>
 </head>
 <body>
-    
+    <h1>Rock Paper Scissors</h1>
+    <button type="button" style="color: white; background-color:rgb(62, 66, 66); margin:none; border-radius: 5px; padding: 40px 80px; display:flex; cursor:pointer;" onclick="playRound('rock')" >Rock</button>
+    <button type="button" style="background-color:white; margin:none; border-radius: 5px; padding: 40px 80px; display:flex; cursor:pointer;" onclick="playRound('paper')">Paper</button>
+    <button type="button" style="background-color:aqua; margin:none; border-radius: 5px; padding: 40px 80px; display:flex; cursor:pointer;" onclick="playRound('scissors')">Scissors</button>
+
+    <div id="result" style="margin-top: 20px; font-size: 1.5em;"></div>
+    <div id="score" style="margin-top: 10px; font-size: 1.2em;"></div>
+    <div id="winner" style="margin-top: 10px; font-size: 1.2em;"></div>
 </body>
 </html>
